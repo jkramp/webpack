@@ -1,0 +1,27 @@
+{
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"html.format.preserveNewLines": false,
+	"xml.format.contentUnformatted": "textFieldExpression",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.vscode": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true
+	},
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 2,
+	"prettier.semi": false,
+	"prettier.trailingComma": true,
+	"beautify.onSave": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true
+}

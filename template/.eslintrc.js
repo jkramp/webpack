@@ -43,7 +43,23 @@ module.exports = {
   },
   {{/if_eq}}
   // add your custom rules here
-  rules: {
+		rules: {
+	   	'space-before-function-paren': 0,
+     	'indent': 0,
+     	'no-extra-semi': 0,
+     	'no-multiple-empty-lines':0,
+     	'space-before-blocks':0,
+     	'one-var': 0,
+		 	'semi': 0,
+		 	'no-tabs': 0, 
+     	'eol-last': 0,
+     	'no-extend-native': 0,
+     	'no-useless-escape': 0,
+     	'func-call-spacing': 0,
+    	'no-unexpected-multiline': 0,
+			'no-template-curly-in-string': 0,
+			'no-return-assign': 0,
+
     {{#if_eq lintConfig "standard"}}
     // allow async-await
     'generator-star-spacing': 'off',
