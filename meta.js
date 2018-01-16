@@ -66,6 +66,10 @@ module.exports = {
 			type: 'confirm',
 			message: 'Install vuex?',
 		},
+		persistedStore: {
+			type: 'string',
+			message: 'Key for vuex-persistedstate (blank not to use)',
+		},
 		lint: {
 			type: 'confirm',
 			message: 'Use ESLint to lint your code?',

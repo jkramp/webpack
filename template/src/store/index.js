@@ -1,12 +1,21 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+{{#persistedStore}}
+import createPersistedState from 'vuex-persistedstate'
+{{/persistedStore}}
+
 import * as getters from './getters'
 import * as actions from './actions'
-
+	
 Vue.use(Vuex)
 // need to add client here
 
-const state = {
+	const state = {
+		{{#persistedStore}}
+		plugins: [createPersistedState({
+			key: {{persistedStore}}
+		})],
+		{{/persistedStore}}
 	apiPath: 'https://api....',
 	credentials: {
 		username: '',
