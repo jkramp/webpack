@@ -10,6 +10,12 @@ import router from './router'
 {{#store}}
 import store from './store'
 {{/store}}
+{{#vuetify}}
+import vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+
+Vue.use(Vuetify)
+{{/vuetify}}
 
 Vue.config.productionTip = false
 

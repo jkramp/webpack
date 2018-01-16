@@ -1,11 +1,17 @@
 <template>
   <div id="app">
+		{{#vuetify}}
+		<v-app>
+		{{/vuetify}}
     <img src="./assets/logo.png">
     {{#router}}
     <router-view/>
     {{else}}
     <HelloWorld/>
-    {{/router}}
+		{{/router}}
+		{{#vuetify}}
+		</v-app>
+		{{/vuetify}}
   </div>
 </template>
 

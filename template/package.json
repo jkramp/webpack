@@ -29,7 +29,8 @@
 		"axios": "^0.17.1"{{#router}},
     "vue-router": "^3.0.1"{{/router}}{{#store}},
     "vuex": "^3.0.1"{{/store}}{{#persistedStore}},
-    "vuex-persistedstate": "^2.4.2"{{/persistedStore}}
+    "vuex-persistedstate": "^2.4.2"{{/persistedStore}}{{#vuetify}},
+    "vuetify": "^0.17.6"{{/vuetify}}
   },
   "devDependencies": {
     {{#lint}}
