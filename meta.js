@@ -73,7 +73,7 @@ module.exports = {
 			default: true,
 		},
 		vuetify: {
-			type: 'string',
+			type: 'confirm',
 			message: 'Use vuetify for the UI',
 			default: true,
 		},
