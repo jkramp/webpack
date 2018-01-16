@@ -106,6 +106,8 @@ module.exports = {
 		unit: {
 			type: 'confirm',
 			message: 'Set up unit tests',
+			value: false,
+			default: false,
 		},
 		runner: {
 			when: 'unit',
