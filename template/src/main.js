@@ -11,7 +11,7 @@ import router from './router'
 import store from './store'
 {{/store}}
 {{#vuetify}}
-import vuetify from 'vuetify'
+import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 
 Vue.use(Vuetify)

@@ -38,7 +38,6 @@ module.exports = {
 		},
 		author: {
 			type: 'string',
-			value: 'Jeff Kramp',
 			message: 'Author',
 		},
 		build: {
@@ -61,10 +60,12 @@ module.exports = {
 		router: {
 			type: 'confirm',
 			message: 'Install vue-router?',
+			default: true,
 		},
 		store: {
 			type: 'confirm',
 			message: 'Install vuex?',
+			default: true,
 		},
 		persistedStore: {
 			type: 'string',
@@ -73,6 +74,7 @@ module.exports = {
 		vuetify: {
 			type: 'string',
 			message: 'Use vuetify for the UI',
+			default: true,
 		},
 		lint: {
 			type: 'confirm',
@@ -125,6 +127,7 @@ module.exports = {
 			type: 'confirm',
 			message: 'Setup e2e tests with Nightwatch?',
 			value: false,
+			default: false,
 		},
 		autoInstall: {
 			type: 'list',

@@ -13,7 +13,7 @@ Vue.use(Vuex)
 	const state = {
 		{{#persistedStore}}
 		plugins: [createPersistedState({
-			key: {{persistedStore}}
+			key: {{ name }}
 		})],
 		{{/persistedStore}}
 	apiPath: 'https://api....',
