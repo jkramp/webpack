@@ -59,6 +59,8 @@ module.exports = {
     	'no-unexpected-multiline': 0,
 			'no-template-curly-in-string': 0,
 			'no-return-assign': 0,
+			'comma-dangle': 0,
+
 
     {{#if_eq lintConfig "standard"}}
     // allow async-await
