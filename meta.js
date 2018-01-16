@@ -77,6 +77,11 @@ module.exports = {
 			message: 'Use vuetify for the UI',
 			default: true,
 		},
+		lodash: {
+			type: 'confirm',
+			message: 'Use lodash?',
+			default: true,
+		},
 		lint: {
 			type: 'confirm',
 			message: 'Use ESLint to lint your code?',
