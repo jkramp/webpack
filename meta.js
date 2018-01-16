@@ -68,8 +68,9 @@ module.exports = {
 			default: true,
 		},
 		persistedStore: {
-			type: 'string',
-			message: 'Key for vuex-persistedstate (blank not to use)',
+			type: 'confirm',
+			message: 'Install vuex-persistedstate?',
+			default: true,
 		},
 		vuetify: {
 			type: 'string',
