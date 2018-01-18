@@ -52,18 +52,17 @@
 </template>
 
 <script>
-{{#unless router}}
-import HelloWorld from './components/HelloWorld'
 
 {{/unless}}
 export default {
-	name: 'app'{{#router}},
+	name: 'app',
 	data(){
-		return 
-	},
-  components: {
-    HelloWorld
-  }{{/router}}
+		return {
+			{{#vuetify}}
+			drawer: false
+			{{#vuetify}}
+		}
+	}
 }
 </script>
 
