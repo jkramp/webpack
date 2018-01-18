@@ -31,7 +31,7 @@
 					<img src="./assets/logo.png">
 		 			{{#router}}
 					<router-view/>
-				 {{#router}}
+				 {{/router}}
 				</v-container>
 			</v-content>
 			<v-footer color="indigo" app>
