@@ -53,7 +53,6 @@
 
 <script>
 
-{{/unless}}
 export default {
 	name: 'app',
 	data(){
