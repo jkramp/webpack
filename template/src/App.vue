@@ -59,7 +59,7 @@ export default {
 		return {
 			{{#vuetify}}
 			drawer: false
-			{{#vuetify}}
+			{{/vuetify}}
 		}
 	}
 }
